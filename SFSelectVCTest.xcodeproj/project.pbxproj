@@ -13,9 +13,19 @@
 		BE9F66422089BCA000C187DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9F66412089BCA000C187DC /* Assets.xcassets */; };
 		BE9F66452089BCA000C187DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9F66432089BCA000C187DC /* LaunchScreen.storyboard */; };
 		BE9F66482089BCA000C187DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F66472089BCA000C187DC /* main.m */; };
+		BE9F66592089BCB300C187DC /* SFSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F664F2089BCB300C187DC /* SFSelectTableViewCell.m */; };
+		BE9F665A2089BCB300C187DC /* SFTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F66522089BCB300C187DC /* SFTitleView.m */; };
+		BE9F665B2089BCB300C187DC /* SFSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F66552089BCB300C187DC /* SFSelectModel.m */; };
+		BE9F665C2089BCB300C187DC /* SFSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F66582089BCB300C187DC /* SFSelectVC.m */; };
+		BEBAA06D2089CD30004C59B7 /* NSString+XAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBAA06C2089CD30004C59B7 /* NSString+XAdd.m */; };
+		BEBAA0702089CD7F004C59B7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBAA06F2089CD7F004C59B7 /* UIView+Frame.m */; };
+		C8AC380E81558D5BAC942ED8 /* libPods-SFSelectVCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0058300A73BB7F206D91AF /* libPods-SFSelectVCTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13814BCE878FA3C9451EE69A /* Pods-SFSelectVCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFSelectVCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFSelectVCTest/Pods-SFSelectVCTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8604830763C6CC5CF96E6FBB /* Pods-SFSelectVCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFSelectVCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFSelectVCTest/Pods-SFSelectVCTest.release.xcconfig"; sourceTree = "<group>"; };
+		9A0058300A73BB7F206D91AF /* libPods-SFSelectVCTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFSelectVCTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9F66352089BC9E00C187DC /* SFSelectVCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSelectVCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9F66382089BC9E00C187DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE9F66392089BC9E00C187DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,18 @@
 		BE9F66442089BCA000C187DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE9F66462089BCA000C187DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9F66472089BCA000C187DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE9F664F2089BCB300C187DC /* SFSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSelectTableViewCell.m; sourceTree = "<group>"; };
+		BE9F66502089BCB300C187DC /* SFTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTitleView.h; sourceTree = "<group>"; };
+		BE9F66512089BCB300C187DC /* SFSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSelectTableViewCell.h; sourceTree = "<group>"; };
+		BE9F66522089BCB300C187DC /* SFTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTitleView.m; sourceTree = "<group>"; };
+		BE9F66542089BCB300C187DC /* SFSelectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSelectModel.h; sourceTree = "<group>"; };
+		BE9F66552089BCB300C187DC /* SFSelectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSelectModel.m; sourceTree = "<group>"; };
+		BE9F66572089BCB300C187DC /* SFSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSelectVC.h; sourceTree = "<group>"; };
+		BE9F66582089BCB300C187DC /* SFSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSelectVC.m; sourceTree = "<group>"; };
+		BEBAA06B2089CD30004C59B7 /* NSString+XAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XAdd.h"; sourceTree = "<group>"; };
+		BEBAA06C2089CD30004C59B7 /* NSString+XAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XAdd.m"; sourceTree = "<group>"; };
+		BEBAA06E2089CD7F004C59B7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BEBAA06F2089CD7F004C59B7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8AC380E81558D5BAC942ED8 /* libPods-SFSelectVCTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C41D6D974101A0097F3D8DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13814BCE878FA3C9451EE69A /* Pods-SFSelectVCTest.debug.xcconfig */,
+				8604830763C6CC5CF96E6FBB /* Pods-SFSelectVCTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BD541C5BA5C276FCA8E712B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A0058300A73BB7F206D91AF /* libPods-SFSelectVCTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE9F662C2089BC9E00C187DC = {
 			isa = PBXGroup;
 			children = (
 				BE9F66372089BC9E00C187DC /* SFSelectVCTest */,
 				BE9F66362089BC9E00C187DC /* Products */,
+				2C41D6D974101A0097F3D8DA /* Pods */,
+				8BD541C5BA5C276FCA8E712B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +100,13 @@
 		BE9F66372089BC9E00C187DC /* SFSelectVCTest */ = {
 			isa = PBXGroup;
 			children = (
+				BEBAA06E2089CD7F004C59B7 /* UIView+Frame.h */,
+				BEBAA06F2089CD7F004C59B7 /* UIView+Frame.m */,
+				BEBAA06B2089CD30004C59B7 /* NSString+XAdd.h */,
+				BEBAA06C2089CD30004C59B7 /* NSString+XAdd.m */,
+				BE9F66532089BCB300C187DC /* Model */,
+				BE9F664E2089BCB300C187DC /* View */,
+				BE9F66562089BCB300C187DC /* Controller */,
 				BE9F66382089BC9E00C187DC /* AppDelegate.h */,
 				BE9F66392089BC9E00C187DC /* AppDelegate.m */,
 				BE9F663B2089BC9E00C187DC /* ViewController.h */,
@@ -71,6 +120,35 @@
 			path = SFSelectVCTest;
 			sourceTree = "<group>";
 		};
+		BE9F664E2089BCB300C187DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE9F66512089BCB300C187DC /* SFSelectTableViewCell.h */,
+				BE9F664F2089BCB300C187DC /* SFSelectTableViewCell.m */,
+				BE9F66502089BCB300C187DC /* SFTitleView.h */,
+				BE9F66522089BCB300C187DC /* SFTitleView.m */,
+			);
+			path = View;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE9F66532089BCB300C187DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE9F66542089BCB300C187DC /* SFSelectModel.h */,
+				BE9F66552089BCB300C187DC /* SFSelectModel.m */,
+			);
+			path = Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE9F66562089BCB300C187DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE9F66572089BCB300C187DC /* SFSelectVC.h */,
+				BE9F66582089BCB300C187DC /* SFSelectVC.m */,
+			);
+			path = Controller;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE9F664B2089BCA000C187DC /* Build configuration list for PBXNativeTarget "SFSelectVCTest" */;
 			buildPhases = (
+				48DAB68144BC11116F054E20 /* [CP] Check Pods Manifest.lock */,
 				BE9F66312089BC9E00C187DC /* Sources */,
 				BE9F66322089BC9E00C187DC /* Frameworks */,
 				BE9F66332089BC9E00C187DC /* Resources */,
@@ -136,14 +215,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48DAB68144BC11116F054E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SFSelectVCTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE9F66312089BC9E00C187DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE9F663D2089BC9E00C187DC /* ViewController.m in Sources */,
+				BE9F665C2089BCB300C187DC /* SFSelectVC.m in Sources */,
 				BE9F66482089BCA000C187DC /* main.m in Sources */,
+				BEBAA0702089CD7F004C59B7 /* UIView+Frame.m in Sources */,
+				BE9F66592089BCB300C187DC /* SFSelectTableViewCell.m in Sources */,
 				BE9F663A2089BC9E00C187DC /* AppDelegate.m in Sources */,
+				BE9F665B2089BCB300C187DC /* SFSelectModel.m in Sources */,
+				BEBAA06D2089CD30004C59B7 /* NSString+XAdd.m in Sources */,
+				BE9F665A2089BCB300C187DC /* SFTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,33 +387,37 @@
 		};
 		BE9F664C2089BCA000C187DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13814BCE878FA3C9451EE69A /* Pods-SFSelectVCTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SFSelectVCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = songfei.SFSelectVCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BE9F664D2089BCA000C187DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8604830763C6CC5CF96E6FBB /* Pods-SFSelectVCTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SFSelectVCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = songfei.SFSelectVCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
